@@ -1,0 +1,127 @@
+20:12:48.360 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:12:48.936 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+20:12:48.967 [pool-1-thread-1] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+20:12:48.988 [pool-1-thread-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:12:48.991 [chrome_1657550568970] DEBUG c.i.k.driver.chrome_1657550568970 - command: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --no-first-run, --user-data-dir=/Users/icf2038136/Automation/Check/myproject/target/chrome_1657550568970, --disable-popup-blocking], working dir: target/chrome_1657550568970
+20:12:48.996 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - poll attempt #0 for port to be ready - localhost:9222
+20:12:49.251 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - poll attempt #1 for port to be ready - localhost:9222
+20:12:49.286 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - 
+20:12:49.336 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/1c5faa01-2285-4bf9-998a-10b5b6f4fdc5
+20:12:49.504 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - poll attempt #2 for port to be ready - localhost:9222
+20:12:49.816 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:12:50.262 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 430
+1 < 200
+1 < Content-Length: 375
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C43A3551D26EA140549A15E6F0B92090",
+   "id": "C43A3551D26EA140549A15E6F0B92090",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C43A3551D26EA140549A15E6F0B92090"
+} ]
+
+
+20:12:50.317 [pool-1-thread-1] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 781 ms - http://localhost:9222/json
+20:12:50.318 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.1.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:12:50.343 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 24
+1 < 200
+1 < Content-Length: 1705
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C1D9E7DF57C0FF797F2089313C22DC11",
+   "id": "C1D9E7DF57C0FF797F2089313C22DC11",
+   "title": "CryptoTokenExtension",
+   "type": "background_page",
+   "url": "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C1D9E7DF57C0FF797F2089313C22DC11"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/1ECC3E6F9CD5D027D7308EAF535D7FC8",
+   "id": "1ECC3E6F9CD5D027D7308EAF535D7FC8",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/1ECC3E6F9CD5D027D7308EAF535D7FC8"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/0E9E47343C8B6F2010808BB447C1E080",
+   "id": "0E9E47343C8B6F2010808BB447C1E080",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/0E9E47343C8B6F2010808BB447C1E080"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/C43A3551D26EA140549A15E6F0B92090",
+   "id": "C43A3551D26EA140549A15E6F0B92090",
+   "title": "",
+   "type": "page",
+   "url": "chrome://welcome/?variant=everywhere",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/C43A3551D26EA140549A15E6F0B92090"
+} ]
+
+
+20:12:50.361 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - root frame id: C43A3551D26EA140549A15E6F0B92090
+20:12:50.701 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:12:50.711 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"C43A3551D26EA140549A15E6F0B92090","flatten":true}}
+20:12:50.734 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.attachedToTarget","params":{"sessionId":"6913708F428B4AAF567A58FF314A750C","targetInfo":{"targetId":"C43A3551D26EA140549A15E6F0B92090","type":"page","title":"Welcome to Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"},"waitingForDebugger":false}}
+20:12:50.735 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":1,"result":{"sessionId":"6913708F428B4AAF567A58FF314A750C"}}
+20:12:50.736 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":2,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Target.activateTarget","params":{"targetId":"C43A3551D26EA140549A15E6F0B92090"}}
+20:12:50.738 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":2,"result":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.739 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":3,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:12:50.745 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"0E9E47343C8B6F2010808BB447C1E080","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.745 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"1ECC3E6F9CD5D027D7308EAF535D7FC8","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.746 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"C1D9E7DF57C0FF797F2089313C22DC11","type":"background_page","title":"CryptoTokenExtension","url":"chrome-extension://kmendfapggjehodndflmmgagdbamhnfd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.747 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"C43A3551D26EA140549A15E6F0B92090","type":"page","title":"Welcome to Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.747 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":3,"result":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.748 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":4,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Page.enable"}
+20:12:50.749 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":4,"result":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.750 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":5,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Runtime.enable"}
+20:12:50.752 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"7196679169195377284.5215855341893145436","auxData":{"isDefault":true,"type":"default","frameId":"C43A3551D26EA140549A15E6F0B92090"}}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.753 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":5,"result":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.754 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":6,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Browser.getWindowForTarget","params":{"targetId":"C43A3551D26EA140549A15E6F0B92090"}}
+20:12:50.756 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":6,"result":{"windowId":1,"bounds":{"left":22,"top":45,"width":1200,"height":973,"windowState":"normal"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:50.843 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":7,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Page.navigate","params":{"url":"https:\/\/www.google.com"}}
+20:12:51.063 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":7,"result":{"frameId":"C43A3551D26EA140549A15E6F0B92090","loaderId":"78B9085B23AB9D61A5D940A9E7D3A451"},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.068 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.069 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Page.frameStartedLoading","params":{"frameId":"C43A3551D26EA140549A15E6F0B92090"},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.077 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"C43A3551D26EA140549A15E6F0B92090","type":"page","title":"https://www.google.com","url":"https://www.google.com/","attached":true,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.082 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.082219:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.082 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.082758:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.083 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.083091:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.083 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.083612:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.084 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.084058:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.085 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.084958:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.085 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.085121:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.085 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.085264:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.085 [chrome_1657550568970-out] DEBUG c.i.k.driver.chrome_1657550568970 - [2576:775:0711/201251.085426:ERROR:shared_image_manager.cc(228)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+20:12:51.092 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.093 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"C43A3551D26EA140549A15E6F0B92090","loaderId":"78B9085B23AB9D61A5D940A9E7D3A451","url":"https://www.google.com/","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.097 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.google.com","name":"","uniqueId":"-2499605213915536208.-4204958885707819238","auxData":{"isDefault":true,"type":"default","frameId":"C43A3551D26EA140549A15E6F0B92090"}}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.354 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"C43A3551D26EA140549A15E6F0B92090","type":"page","title":"Google","url":"https://www.google.com/","attached":true,"canAccessOpener":false,"browserContextId":"52B32135257BF5B525F2E407A3D88E1E"}},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.361 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"C43A3551D26EA140549A15E6F0B92090","url":"https://www.google.com/"},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.362 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"method":"Page.domContentEventFired","params":{"timestamp":211588.68058},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.363 [pool-1-thread-1] DEBUG c.i.k.driver.chrome_1657550568970 - >> {"id":8,"sessionId":"6913708F428B4AAF567A58FF314A750C","method":"Target.closeTarget","params":{"targetId":"C43A3551D26EA140549A15E6F0B92090"}}
+20:12:51.365 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1657550568970 - << {"id":8,"result":{"success":true},"sessionId":"6913708F428B4AAF567A58FF314A750C"}
+20:12:51.366 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:12:51.368 [pool-1-thread-1] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1657550568970
+20:12:51.391 [chrome_1657550568970] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --no-first-run, --user-data-dir=/Users/icf2038136/Automation/Check/myproject/target/chrome_1657550568970, --disable-popup-blocking] working dir: target/chrome_1657550568970
+20:12:51.853 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
