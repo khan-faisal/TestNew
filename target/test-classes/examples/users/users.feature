@@ -7,3 +7,4 @@ Feature: sample karate test script
   Scenario: get all users and then get the first user by id
     Given driver 'https://www.google.com'
     And Test something
+    And I created a branch
